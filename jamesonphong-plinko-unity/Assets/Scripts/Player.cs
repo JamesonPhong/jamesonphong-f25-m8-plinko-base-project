@@ -5,6 +5,7 @@ public class Player : MonoBehaviour
     public float speed = 1;
     public GameObject disc;
     public CameraFollow cameraFollow;
+    public PlayerShootSFX playSFX;
     private GameObject activeDisc;
 
     void Update()
@@ -20,6 +21,7 @@ public class Player : MonoBehaviour
             Quaternion rotation = transform.rotation;
             activeDisc = Instantiate(disc, position, rotation);
             cameraFollow.FollowDisc(activeDisc);
+            playSFX.PlayShootFX();
         }
     }
     void Move()
