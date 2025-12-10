@@ -1,4 +1,4 @@
-# jamesonphong-f25-m8-plinko-base-project
+# jamesonphong-f25-m8-plinko-base-project-Plinko-Space-Battle
 In order to play the game you must use the following controls:
 A + D / Left and Right Arrow Key to move Left or Right.
 Left Mouse Click / Space Bar to Shoot.
