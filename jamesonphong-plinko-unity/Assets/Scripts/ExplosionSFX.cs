@@ -6,6 +6,7 @@ public class ExplosionSFX : MonoBehaviour
     public AudioSource audioSource;
     public void ExplosionSoundFX()
     {
+        // Play the audio source
         audioSource.Play();
     }
 }
