@@ -6,7 +6,7 @@ public class HealthTracker : MonoBehaviour
 {
     // Reference to the TMP_Text component for displaying health + setting initial health
     public TMP_Text healthDisplay;
-    public int health = 9000;
+    public int health = 1000;
 
     private void Start()
     {
